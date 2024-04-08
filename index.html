@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="PQG">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <h2>Curriculum Vitae</h2>
+
+    <div class="container">
+
+        <fieldset class="campo">
+            <legend><strong>Datos personales</strong></legend>
+            <form action="/action_page.php">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">Nombre</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Apellidos</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Tu apellido..">
+                    </div>
+                </div>
+
+                
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Sexo</label>
+                    </div>
+                    <div class="col-75">
+                        <select name="sexo" id="sexo">
+                            <option value="mujer">Mujer</option>
+                            <option value="hombre">Hombre</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="univ">Fecha de nacimiento</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="date" name="fecha" value="">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="ads">Direcci&oacute;n</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="ads" name="addres" placeholder="Tu direcci&oacute;n..">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Correo electronico</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="email" id="lname" name="correo" placeholder="tucorreo@dominio.com">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Telefono</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="tel" placeholder="222-222-22-22">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Sube tu foto</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="file" accept=".jpg">
+                    </div>
+                </div>
+
+            </form>
+        </fieldset>
+        
+        <br>
+        <fieldset class="campo">
+            <legend><strong>Datos academicos</strong></legend>
+            <div class="row">
+                <div class="col-25">
+                    <label for="titulo">Nombre del titulo</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="nomtitu" name="titulo" placeholder="Ingenier@ en...">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="univ">Universidad</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="uni" name="univ" placeholder="Nombre de la universidad">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="univ">Fecha de inicio</label>
+                </div>
+                <div class="col-75">
+                    <input type="date" name="fecha" value="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="univ">Fecha de graduacion</label>
+                </div>
+                <div class="col-75">
+                    <input type="date" name="fecha" value="">
+                </div>
+            </div>
+        </fieldset>
+        <br>
+
+        <fieldset class="campo">
+            <legend><strong>Proyectos</strong></legend>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="univ">Nombre del proyecto</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="uni" name="univ" placeholder="Proyecto..">
+                </div>
+            </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Descripcion</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Breve descripcion"
+                            style="height:100px"></textarea>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Sube tu proyecto</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="file" accept=".pdf">
+                    </div>
+                </div>
+            
+        </fieldset>
+
+        <br>
+        <div class="row">
+            <input type="submit" value="Aceptar">
+        </div>
+    </div>
+
+</body>
+
+</html>
